@@ -1,0 +1,559 @@
+<html>
+	<head>
+	<title>
+		98 builders
+	</title>
+		<style type ="text/CSS">
+			body{
+				margin:0;
+				padding:0;
+				
+				}
+
+			#mainarea {
+					margin:0 auto;
+				}
+			.head{
+      				
+     				height:81px;
+      				display:flex;
+    				}
+					.text{
+						margin-left:170px;
+						margin-right:30px;
+						margin-top:10px;
+						}
+
+    					.link ul li{
+      						list-style:none;
+      						font-size:20px;
+  						font-family: "Sofadi One", system-ui;
+  						font-weight: 400;
+  						font-style: normal;
+    						}
+    					.link ul li a{
+     						text-decoration: none;
+    						}
+   
+     					.link ul {
+      						display: flex;
+      						justify-content: space-between;
+						align-items: center; 
+ 						width: 800px; 
+        					position: relative;
+						top:15px;  
+    						}
+			
+			#darea{
+				
+				height:400px;
+				background:white;
+				display:flex;
+				margin-top:100px;
+				margin-left:170px;
+				}
+					.bg1{
+						text-align:center;
+						position:relative;
+						top:80px;
+						right:30px;
+						left:15px;
+						}
+					.bg2{
+						
+						position:relative;
+						top:20px;
+						right:30px;
+						left:35px;
+					}
+			.location-dropdown {
+					width:1200px;
+					height:300px;
+					position: relative;
+					display: inline-block;
+					margin-left:170px;
+					margin-bottom:100px;
+					background-color:#9F8054;
+					
+					}
+					.location-dropdown p1{
+							margin-left:400px;
+							font-size:28px;
+	 						font-family: "Montserrat", sans-serif;
+  							font-optical-sizing: auto;
+							font-weight: <weight>;
+							font-style: normal;
+							margin-top:50px;
+							}
+					.location-dropdown p{
+							text-align:center;
+							font-size:18px;
+	 						font-family: "Sofadi One", system-ui;
+  							font-weight: 400;
+  							font-style: normal;
+							margin-top:20px;
+							}
+					.location-dropdown h1{
+							margin-left:450px;
+							font-size:32px;
+	 						font-family: "Montserrat", sans-serif;
+  							font-optical-sizing: auto;
+  							font-weight: <weight>;
+  							font-style: normal;
+							}
+
+			.location-dropdown open {
+  						padding: 10px 40px 10px 20px;
+  						border: 1px solid #ccc;
+  						border-radius: 5px;
+  						background-color: #f9f9f9;
+  						appearance: none;
+  						-webkit-appearance: none;
+  						-moz-appearance: none;
+						margin-left:500px;
+						margin-top:20px;
+						}
+
+			.location-dropdown open:focus {
+  						outline: none;
+  						border-color: #aaa;
+  						box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+						}
+
+				.card{
+					
+					height:350px;
+					width:1200px;
+					display:flex;
+					justify-content:space-evenly;
+					margin-left:170px;
+					}
+					.c1 .box{
+						width:300px;
+						height:70px;
+						border-radius:10px 10px 10px 10px;
+						text-align:center;
+						display:flex;
+						justify-context:center;
+						align-items:center;
+						flex-direction:column;
+						font-size:12px;	
+											
+						}
+					.c1 .box h1{
+						font-family: "Merriweather", serif;
+  						font-weight: 300;
+ 						font-style: normal;
+						}
+				.container {
+  					display: flex;
+  					width:1170px;
+  					margin-left:200px;
+					}
+
+					.left {
+  						flex: 1;
+						}
+
+				.right {
+  					flex: 1;
+  					display: flex;
+  					flex-direction: column;
+					}
+
+					.right-top {
+  						flex: 1;
+  						display: flex;
+						}
+
+					.right-bottom {
+ 						flex: 1;
+  						margin-bottom:30px;
+						}
+
+					.right-top-left {
+  						flex: 1;
+						}
+
+					.right-top-right {
+  						flex: 1;
+						}
+
+				.header {
+  					display: flex;
+  					justify-content: space-between;
+  					padding: 10px;
+  					width:1200px;
+					margin-left:170px;
+  					margin-bottom:20px;
+					}
+
+					.header-item {
+  						text-decoration: underline;
+  						margin: 0 10px;
+						}
+
+					.image {
+  						width: 100%;
+						}
+
+				.floor-plan {
+ 					border: 1px solid black;
+  					display: flex;
+  					flex-direction: column;
+  					padding: 10px;
+					}
+
+					.floor-plan-header {
+  						font-weight: bold;
+						}
+
+					.room {
+  						border: 1px solid black;
+  						padding: 5px;
+  						margin: 5px;
+  						display: flex;
+  						flex-direction: column;
+						}
+
+					.room-name {
+  						font-weight: bold;
+						}
+
+					.room-size {
+  						font-style: italic;
+						}
+				.form {
+  					width:1100px; 
+  					margin-left:220px;  
+  					padding: 20px;
+  					border: 1px solid #ccc;
+  					border-radius: 5px;
+  					font-family: Arial, sans-serif;
+					}
+
+					h2 {
+  						text-align: center;
+ 						margin-bottom: 20px;
+					}
+
+					input,
+					select {
+  						width: calc(100% - 22px);
+  						padding: 10px;
+  						margin: 10px 0;
+  						border: 1px solid #ccc;
+  						border-radius: 5px;
+						}
+
+					button {
+  						padding: 10px 20px;
+  						margin-top: 10px;
+  						border: none;
+  						border-radius: 5px;
+  						cursor: pointer;
+						}
+
+				.get-otp {
+  					background-color: #e74c3c; 
+  					color: white;
+  					width: 100%; 
+					}
+
+				.submit {
+  					background-color: #a08268; 
+  					color: white;
+					}
+				.footer {
+  					display: flex;
+  					flex-wrap: wrap;
+  					justify-content: space-around;
+  					background-color: black;
+  					padding: 20px;
+ 					width:1200px;
+  					margin-left:170px;
+  					margin-top:50px;
+					}
+
+				.office-block {
+  					width: 300px; 
+  					margin-bottom: 20px;
+  					padding: 20px;
+  					background-color: #1a1a1a;
+  					color: white;
+  					border-radius: 8px;
+					}
+
+				.office-block img {
+ 					width: 80px; 
+  					height: 80px;
+  					margin-bottom: 10px;
+					}
+
+				.office-block h2 {
+  					font-size: 1.5rem;
+  					margin-bottom: 10px;
+					}
+
+				.office-block p {
+  					font-size: 0.9rem;
+  					line-height: 1.4;
+					}
+
+		</style>
+	</head>
+	<body>
+		<div id="mainarea">
+			
+			<div class="head">
+    				<div class="text">
+      					<h1>98 BUILDERS</h1>
+      				</div>
+      				<div class="link">
+        				<ul>
+          					<li><a href="#">HOME</a></li>
+          					<li><a href="#">PROJECTS</a></li>
+          					<li><a href="#">AWARDS</a></li>
+          					<li><a href="#">NEWS</a></li>
+	  					<li><a href="#">MEDIA</a></li>
+          					<li><a href="#">CONTACT US</a></li>
+					</ul>
+    				</div>
+    
+  			</div>
+			<div id="darea">
+				<div class="bg1" width:"600px"; height:"350px"; >
+					<h1>Shri Krishna Vatika Virtual Tour</h1> 
+					<h3>Living spaces for creative peoples</h3>
+					<p>We handpick locations that offer seamless connectivity,<br> unmatched return on investments,<br>in a neighborhood that is truly one-of-a-kind.</p>
+				</div>
+				<div class=" bg2">
+					<div class="img"><img src="krishna.jpg" width="600px";height="350px"></div>
+							
+				</div>
+			</div>
+			<div class="location-dropdown">
+					<h1>LOCATIONS</h1>
+					<p>We handpick locations that offer seamless connectivity,unmatched return on investments,in a neighborhood that is truly one-of-a-kind.</p>
+					<p1>SEARCH PROPERTIES</p1>
+ 				<select id="location-open">
+    					<option value="">Select city</option>
+    					<option value="DHANBAD">DHANBAD</option>
+					<option value="ASANSOL">ASANSOL</option>
+					<option value="DURGAPUR">DURGAPUR</option>
+					<option value="BOKARO">BOKARO</option>
+					<option value="RANCHI">RANCHI</option>
+  				</select>
+			</div>
+			<div class="parentcard">
+				<div class="card">
+					<div class="c1">
+						<img src="s1.jpg" height="250px" width="300px">
+						<div class=box>
+							<h1 >98 Koylanchal City</h1>
+						</div>
+
+					</div>
+					<div class="c1">
+						<img src="s2.jpg" height="250px" width="300px">
+						<div class=box>
+							<h1 >98 Sentosa Greens</h1>
+						</div>
+
+					</div>
+					<div class="c1">
+						<img src="s3.jpg" height="250px" width="300px">
+						<div class=box>
+							<h1 >The Indiana Estate</h1>
+						</div>
+
+					</div>
+
+				</div>
+				
+			</div>
+			
+			<div class="parentcard">
+				<div class="card">
+					<div class="c1">
+						<img src="s4.jpg" height="250px" width="300px">
+						<div class=box>
+							<h1 >98 Sentosa Greens Durgapur</h1>
+						</div>
+
+					</div>
+					<div class="c1">
+						<img src="s5.jpg" height="250px" width="300px">
+						<div class=box>
+							<h1 >98 Asansol Enclave</h1>
+						</div>
+
+					</div>
+					<div class="c1">
+						<img src="s6.jpg" height="250px" width="300px">
+						<div class=box>
+							<h1 >98 Bokaro Enclave</h1>
+						</div>
+
+					</div>
+
+				</div>
+				
+			</div>
+			<div class="header">
+  				<div class="header-item">Duplex</div>
+  				<div class="header-item">Luxury Duplex</div>
+  				<div class="header-item">Merlion Kothi</div>
+  				<div class="header-item">Rose</div>
+  				<div class="header-item">Tulip</div>
+  				<div class="header-item">Villa</div>
+  				<div class="header-item">Villa Luxuria</div>
+			</div>
+
+			<div class="container">
+  				<div class="left">
+    				<img src="d1.jpeg" alt="House" class="image">
+  			</div>
+
+  			<div class="right">
+    				<div class="right-top">
+      					<div class="right-top-left">
+        					<div class="floor-plan">
+          						<div class="floor-plan-header">GROUND FLOOR PLAN:- 885 SQFT</div>
+          						<div class="room">
+            							<div class="room-name">BEDROOM</div>
+            							<div class="room-size">140"X100"</div>
+          						</div>
+          						<div class="room">
+            							<div class="room-name">TOILET</div>
+           							<div class="room-size">10'0"X4'6"</div>
+          						</div>
+          						<div class="room">
+            							<div class="room-name">DRWAING/DINING</div>
+            							<div class="room-size">15'0"X16'3"</div>
+          						</div>
+          						<div class="room">
+            							<div class="room-name">KITCHEN</div>
+            							<div class="room-size">711"X100"</div>
+          						</div>
+        					</div>
+      					</div>
+      					<div class="right-top-right">
+        					<div class="floor-plan">
+          						<div class="floor-plan-header">FIRST FLOOR PLAN:- 798 SQFT</div>
+          						<div class="floor-plan-header">MUMTY AREA:-108 SQFT</div>
+          						<div class="room">
+            							<div class="room-name">DRESSING</div>
+            							<div class="room-size">7'11"X4'0"</div>
+          						</div>
+          						<div class="room">
+            							<div class="room-name">BEDROOM</div>
+            							<div class="room-size">140"X100"</div>
+          						</div>
+          						<div class="room">
+            							<div class="room-name">TOILET</div>
+            							<div class="room-size">7'11"X5'8"</div>
+          						</div>
+          						<div class="room">
+            							<div class="room-name">TOILET</div>
+            							<div class="room-size">10'0"X4'6"</div>
+          						</div>
+          						<div class="room">
+            							<div class="room-name">BEDROOM</div>
+            							<div class="room-size">10'0"X130"</div>
+          						</div>
+          						<div class="room">
+            							<div class="room-name">BALCONY</div>
+            							<div class="room-size">10'5"X3'3"</div>
+          						</div>
+          						<div class="room">
+            							<div class="room-name">BEDROOM</div>
+            							<div class="room-size">11'11"x9"9.5"</div>
+          						</div>
+          						<div class="room">
+            							<div class="room-name">SEMI TERRACE</div>
+            							<div class="room-size">10'0"x30"</div>
+          						</div>
+        					</div>
+      					</div>
+    				</div>
+    				<div class="right-bottom">
+      					<div class="floor-plan-header">DELUXE VILLA</div>
+      					<div class="floor-plan-header">PLOT AREA: 1500 SQFT (50X30)</div>
+      					<div class="floor-plan-header">BUILT-UP AREA:- 1791 SQFT</div>
+    				</div>
+  			</div>
+			</div>
+			<div class="form">
+    				<h2>Request A Call Back</h2>
+    				<form>
+      					<div>
+        					<input type="text" id="name" placeholder="Your Name">
+      					</div>
+      					<div>
+        					<input type="email" id="email" placeholder="Your Email">
+      					</div>
+      					<div>
+        					<input type="tel" id="phone" placeholder="Your Phone No.">
+      					</div>
+      					<div>
+        					<input type="text" id="location" placeholder="Interested Location">
+      					</div>
+      					<div>
+        					<select id="interest">
+          						<option value="" disabled selected>I am interested for?</option> 
+          						<option value="option1">Option 1</option> 
+          						<option value="option2">Option 2</option> 
+        					</select>
+      					</div>
+      					<button type="button" class="get-otp">Get Otp</button> 
+      					<button type="submit" class="submit">SUBMIT</button>
+    				</form>
+  			</div>
+			<div class="footer">
+  				<div class="office-block">
+    					<img src="f1.png" alt="Location Icon">
+    					<h2>Corporate Office</h2>
+    					<p>Ramajee Complex | Hirak Road,<br>Near Memko More | Dhanbad Jharkhand<br>-826004</p>
+  				</div>
+
+  				<div class="office-block">
+    					<img src="f1.png" alt="Location Icon">
+    					<h2>Giridih Office</h2>
+    					<p>1st floor | Maruti Tower,<br> Tiranga Chowk | Giridih Jharkhand<br>-815301</p>
+  				</div>
+
+  				<div class="office-block">
+    					<img src="f1.png" alt="Location Icon">
+    					<h2>Andal Office</h2>
+    					<p>Andal More<br>Near Canara Bank | Paschim Burdwan |<br> West Bengal- 713321</p>
+  				</div>
+
+  				<div class="office-block">
+    					<img src="f2.png" alt="Location Icon">
+    					<h2>Ranchi Office</h2>
+    					<p>Office no. 611 | Eastren Mall<br>Near Dangratoli chowk | Ranchi,<br>Jharkhand-834001</p>
+  				</div>
+
+  				<div class="office-block">
+    					<img src="f2.png" alt="Location Icon">
+    					<h2>Asansol Office</h2>
+    					<p>Raghunath Niwas | Sen-Riligh Road,<br>Asonsol-713305 (W.B.)</p>
+  				</div>
+
+  				<div class="office-block">
+    					<img src="f3.png" alt="Location Icon">
+    					<h2>Bokaro Office</h2>
+    					<p>S-8 | Sector-4 | City Centre<br>Near Maruti Nexa Showroom | Bokaro<br>Steel City | Jharkhand-827004</p>
+  				</div>
+
+  				<div class="office-block">
+    					<img src="f3.png" alt="Location Icon">
+    					<h2>Durgapur Office</h2>
+    					<p>House No. CA-9 | Urvashi Phase-II,<br>Durgapur - 713216 (W.B.)</p>
+  				</div>
+			</div>
+		</div>
+	</body>
+</html>
